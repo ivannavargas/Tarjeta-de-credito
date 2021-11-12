@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+   
+
+    <head>
+        <meta charset="utf-8">
+
+        <H1 align="center">   
+         INGRESE SU TARJETA DE CREDITO
+        </H1>
+
+        <br></br>
+        <script src="programa.js"></script>
+    </head>
+
+    <H1 align="center">   
+<body>
+     
+  <form method="post" id="paymentForm">
+    <p>
+        <label>Card number</label>
+        <input type="text" placeholder="1234 5678 9012 3456" id="card_number" >
+    </p>
+    <p>
+        <label>Expiry month</label>
+        <input type="text" placeholder="MM" maxlength="5" id="expiry_month">
+    </p>
+    <p>
+        <label>Expiry year</label>
+        <input type="text" placeholder="YYYY" maxlength="5" id="expiry_year">
+    </p>
+    <p>
+        <label>CVV</label>
+        <input type="text" placeholder="123" maxlength="3" id="cvv">
+    </p>
+    <p>
+        <label>Name on card</label>
+        <input type="text" placeholder="Codex World" id="name_on_card">
+    </p>
+</form>
+
+        <input type="button" value="validar" id="botonsuma" onclick="cardFormValidate()">
+
+        <div id="resultado">
+</body>
+</H1>
+</html>
